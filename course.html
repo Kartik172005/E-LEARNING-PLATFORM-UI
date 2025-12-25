@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Learning | My Learning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-nav">
+  <div class="logo">E-Learning</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a class="active" href="course.html">My Learning</a>
+  </nav>
+</header>
+
+<section class="container course-layout">
+
+  <div>
+    <h2 id="courseTitle">Select a course</h2>
+
+    <div class="video-card">
+      <iframe id="courseVideo" allowfullscreen></iframe>
+    </div>
+
+    <button class="course-btn" onclick="completeLesson()">Mark Lesson Complete</button>
+  </div>
+
+  <div>
+    <h3>Your Progress</h3>
+    <div id="allProgress"></div>
+  </div>
+
+</section>
+
+<footer>© 2025 E-Learning</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

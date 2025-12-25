@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Learning | Courses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-nav">
+  <div class="logo">E-Learning</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a class="active" href="courses.html">Courses</a>
+    <a href="course.html">My Learning</a>
+  </nav>
+</header>
+
+<section class="container">
+  <h1 class="section-title">Available Courses</h1>
+
+  <input
+    type="text"
+    id="searchInput"
+    class="search-bar"
+    placeholder="Search courses..."
+    onkeyup="searchCourses()"
+  />
+
+  <div class="course-grid">
+
+    <div class="course-card">
+      <h3>HTML & CSS Basics</h3>
+      <p>Apna College</p>
+      <p class="desc">
+        Learn to build and style modern websites using HTML and CSS from scratch.
+      </p>
+      <a href="course.html?course=HTML" class="course-btn">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <h3>JavaScript Fundamentals</h3>
+      <p>CodeWithHarry</p>
+      <p class="desc">
+        Learn JavaScript basics like variables, functions, loops, and DOM manipulation.
+      </p>
+      <a href="course.html?course=JS" class="course-btn">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <h3>Python for Beginners</h3>
+      <p>CodeWithHarry</p>
+      <p class="desc">
+        Start coding with Python and learn syntax, logic building, and problem solving.
+      </p>
+      <a href="course.html?course=Python" class="course-btn">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <h3>Java Programming</h3>
+      <p>Apna College</p>
+      <p class="desc">
+        Learn Java programming with OOP concepts, classes, objects, and fundamentals.
+      </p>
+      <a href="course.html?course=Java" class="course-btn">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <h3>React JS Basics</h3>
+      <p>Thapa Technical</p>
+      <p class="desc">
+        Build modern UI using React components, props, state, and hooks.
+      </p>
+      <a href="course.html?course=React" class="course-btn">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <h3>MongoDB Basics</h3>
+      <p>Telusko</p>
+      <p class="desc">
+        Learn MongoDB NoSQL database concepts including collections and CRUD operations.
+      </p>
+      <a href="course.html?course=Mongo" class="course-btn">View Course</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>© 2025 E-Learning</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
