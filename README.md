@@ -50,21 +50,18 @@ The platform focuses on simplicity, clean UI, and core frontend concepts such as
 
 ## Project Structure
 
-E-Learning-Platform
-│
-├── index.html 
--Home page
-├── courses.html 
--Courses listing page
-├── course.html 
--My Learning page
-├── style.css 
--Complete styling
-├── script.js 
--JavaScript logic
-└── README.md 
--Project documentation
+**E-Learning-Platform**
 
+-**index.html**
+  Home page
+-**courses.html** 
+  Courses listing page
+-**course.html** 
+  My Learning page
+-**style.css** 
+  Complete styling
+-**script.js** 
+  JavaScript logic
 
 ---
 
