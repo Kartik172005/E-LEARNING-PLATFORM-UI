@@ -130,4 +130,10 @@ This E-Learning Platform is a complete beginner-friendly frontend project that s
 
 ---
 
+## Output
 
+<img width="1902" height="864" alt="Image" src="https://github.com/user-attachments/assets/2a386d33-8abd-45fd-abeb-664d06e03443" />
+
+<img width="1900" height="862" alt="Image" src="https://github.com/user-attachments/assets/f8e423c7-b448-4814-8207-a5b72841a75d" />
+
+<img width="1897" height="868" alt="Image" src="https://github.com/user-attachments/assets/beb6fbe9-c1e3-42f3-88d3-371f8cc6c7cf" />
